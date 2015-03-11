@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+     <section>
+    <article>
+<header>
+  <h1>表單</h1>
+    </header>
+      <div class="form-group">
+     <label for="Name">1. Your Name?</label>
+      <br>
+  <input type="text" class="form-control" id="Name" placeholder = "Full Name"/>
+      </div>
+  
+      <br>
+           <div class="form-group">
+      <label for="Gender"> 2. What is your gender?</label>
+      <br>
+      <li>
+    <input type="radio" class="form-control" name="Gender"
+     id="male" value="male">
+    <label for="male">Male</label>
+  </li>
+  <li>
+    <input type="radio" class="form-control" name="Gender"
+     id="female" value="female">
+    <label for="female">Female</label>
+  </li>
+      </div>
+      <br>
+           <div class="form-group">
+           <label for="Bday">3. Birthday?</label>
+      <br>
+  <input type="date" class="form-control" id="Bday" placeholder= "mm/dd/yyyy"/>
+      </div>
+      <br>
+      
+           <div class="form-group">
+      <label for="Trans">4. Which form of transport do you use?</label>
+      <p>Choose as many as you like</p>
+      <ol>
+      <li>
+              <input type="checkbox" class="form-control" name="Trans"
+     id="walking" value="walking">
+    <label for="walking">Walking</label>
+      </li>
+        <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Bike" value="Bike">
+        <label for="Bike">Bike</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Motor" value="Motor">
+        <label for="Motor">Motorcycle</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Car" value="Car">
+        <label for="Car">Car</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Bus" value="Bus">
+        <label for="Bus">Bus</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Metro" value="Metro">
+        <label for="Metro">Metro</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Train" value="Train">
+        <label for="Train">Train</label></li>
+              <li>
+      <input type="checkbox" class="form-control" name="Trans"
+     id="Plane" value="Plane">
+        <label for="Plane">Airplane</label></li>
+      </ol>      
+      </div>
+           <div class="form-group">
+      <label for="Edu">5.What is the highest level of education you have completed?</label>
+         <ul>
+      <li>
+              <input type="radio" class="form-control" name="Edu"
+     id="highskol" value="highskol">
+    <label for="highskol">Less than highschool</label>
+      </li>
+        <li>
+      <input type="radio" class="form-control" name="Edu"
+     id="highschools" value="highschools">
+          <label for="highschools">Highschool or equivalent</label></li>
+              <li>
+      <input type="radio" class="form-control" name="Edu"
+     id="collage" value="collage">
+                <label for="collage">Attended collage/university</label></li>
+              <li>
+        <input type="radio" class="form-control" name="Edu"
+     id="associate" value="associate">
+        <label for="associate">Associate degree</label></li>
+              <li>
+             <input type="radio" class="form-control" name="Edu"
+     id="bachelor" value="bachelor">
+        <label for="bachelor">Bachelor's degree</label></li>
+              <li>
+       <input type="radio" class="form-control" name="Edu"
+     id="master" value="master">
+        <label for="master">Master's degree</label></li>
+              <li>
+    <input type="radio" class="form-control" name="Edu"
+     id="pro" value="pro">
+        <label for="pro">Professional degree</label></li>
+              <li>
+     <input type="radio" class="form-control" name="Edu"
+     id="doc" value="doc">
+        <label for="doc">Doctorate degree</label></li>
+                     <li>
+     <input type="radio" class="form-control" name="Edu"
+     id="no" value="no">
+        <label for="no">I prefer not to tell</label></li>
+      </ul>      
+      </div>
+           <div class="form-group">
+      <label for="Edu">6. Which industry do you work in or are most involved with?*</label>
+      <br>
+        <input type="text" class="form-control" id="industry" placeholder= "type or select an option" list="industype">
+      <datalist id="industype">
+        <option value="accouting"></option>
+        <option value="writing and editing"></option>
+        <option value="animation"></option>
+        <option value="photography"></option>
+        <option value="graphic design"></option>
+        <option value="computer software"></option>
+        <option value="computer games"></option>
+        <option value="information technology & service"></option>
+      </datalist>
+      </div>
+      <br>
+           <div class="form-group">
+        <label for="num">7. Your phone*</label>
+      <br>
+         <input type="tel" class="form-control" id="num" placeholder= "09********" pattern="[0-9]{10}">
+      </div>
+           <br>
+           <div class="form-group">
+        <label for="mail">8. Email address*</label>
+      <br>
+         <input type="email" class="form-control" id="mail" placeholder= "email address" required>
+      </div>
+      <br>
+      
+           <div class="form-group">
+       <label for="web">8. Personal Website*</label>
+      <br>       <input type="url" class="form-control" id="web" placeholder= "http://" required>
+      </div>
+      
+    </article>
+    </section>
+  </body>
+  <br>
+  <input type="submit" value="submit">
+</html>
