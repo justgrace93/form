@@ -1,0 +1,53 @@
+header{
+  font-family:setofont;
+  font-size:30pt;
+    text-align: center; padding: 0px;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .4s;
+  opacity: 1;
+}
+
+h1:hover{
+  opacity: .3;
+}
+
+div,ol {
+  font-family:setofont;
+  font-size:11pt;
+  line-height:1.4;
+}
+ul{
+font-family:setofont;
+  font-size:12pt;
+}
+
+body{
+    background: url(http://rlwministries.org/home/wp-content/uploads/2013/12/light-grey-wood-photography-hd-wallpaper-1920x1200-46473.jpg) fixed;   
+}
+
+
+.form-group{
+  position: relative;
+  display: inline-block;
+  border : 13px solid rgba(0,197,205,0.3);
+  background: rgba(193,255,193,0.4);
+  width: 280px; 
+  left:50px;
+  font-size: 20px;
+  margin: 10px ;
+  padding: 50px; 
+  
+}
+
+
+input {
+  text-align: center; padding: 5px; background: #40E0D0;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .4s;
+  opacity: .7;
+
+}
+input:hover{
+  opacity: 1;
+  text-align: center
+}
