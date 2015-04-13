@@ -1,7 +1,8 @@
 header{
-  font-family:setofont;
+  font-family: sourcehansans-tc-extralight;
   font-size:30pt;
-    text-align: center; padding: 0px;
+  color:white;
+  text-align: center; padding: 20px;
   -webkit-transition-property: opacity;
   -webkit-transition-duration: .4s;
   opacity: 1;
@@ -12,36 +13,36 @@ h1:hover{
 }
 
 div,ol {
-  font-family:setofont;
-  font-size:11pt;
+  font-family: sourcehansans-tc-extralight;
+  font-size:10pt;
   line-height:1.4;
 }
 ul{
-font-family:setofont;
-  font-size:12pt;
+font-family: sourcehansans-tc-extralight;
+  font-size:10pt;
 }
 
 body{
-    background: url(http://rlwministries.org/home/wp-content/uploads/2013/12/light-grey-wood-photography-hd-wallpaper-1920x1200-46473.jpg) fixed;   
+    background: url(https://seattlesteve.files.wordpress.com/2014/02/dsc03070.jpg) fixed;   
 }
 
 
+
 .form-group{
-  position: relative;
+
   display: inline-block;
-  border : 13px solid rgba(0,197,205,0.3);
-  background: rgba(193,255,193,0.4);
-  width: 280px; 
-  left:50px;
+  border : 13px solid rgba(205,38,38,0.7);
+  background: rgba(245, 245, 245,0.9);
+width:280px;
   font-size: 20px;
-  margin: 10px ;
+  margin: 80px ;
   padding: 50px; 
   
 }
 
 
 input {
-  text-align: center; padding: 5px; background: #40E0D0;
+  text-align: center; padding: 5px; background: #FFAEB9;
   -webkit-transition-property: opacity;
   -webkit-transition-duration: .4s;
   opacity: .7;
