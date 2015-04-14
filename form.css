@@ -31,6 +31,9 @@ body{
 .form-group{
   border : 13px solid rgba(205,38,38,0.7);
   background: rgba(245, 245, 245,0.9);
+   margin: 50px;
+   padding: 30px;
+  width: 500px;
 }
 
 
